@@ -37,7 +37,7 @@
                 {
                     "name": "",
                     "id": "e331456a-ac74-4746-a7cd-f725b1bd5129",
-                    "path": "<Mouse>/delta",
+                    "path": "<Mouse>/position",
                     "interactions": "",
                     "processors": "",
                     "groups": "KeyboardAndMouse",
@@ -157,6 +157,17 @@
                 },
                 {
                     "name": "",
+                    "id": "a8e08cb7-39c8-48ed-ac14-bd803ac15907",
+                    "path": "<Gamepad>/leftStick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Gamepad",
+                    "action": "Mouse Movement",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
                     "id": "c82c80e1-d6a7-4f6f-86dd-a6db5e3706b3",
                     "path": "<Mouse>/leftButton",
                     "interactions": "",
@@ -173,6 +184,17 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "KeyboardAndMouse",
+                    "action": "Submit",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "f3285e1c-bb79-4d74-8e3e-6bca11d6c6e5",
+                    "path": "<Gamepad>/buttonSouth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Gamepad",
                     "action": "Submit",
                     "isComposite": false,
                     "isPartOfComposite": false
@@ -198,6 +220,17 @@
                     "action": "Go Back",
                     "isComposite": false,
                     "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "20b37552-b102-425a-be26-fd62a26cb209",
+                    "path": "<Gamepad>/buttonEast",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Gamepad",
+                    "action": "Go Back",
+                    "isComposite": false,
+                    "isPartOfComposite": false
                 }
             ]
         }
@@ -214,6 +247,17 @@
                 },
                 {
                     "devicePath": "<Mouse>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        },
+        {
+            "name": "Gamepad",
+            "bindingGroup": "Gamepad",
+            "devices": [
+                {
+                    "devicePath": "<Gamepad>",
                     "isOptional": false,
                     "isOR": false
                 }
